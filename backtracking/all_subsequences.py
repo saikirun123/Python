@@ -32,9 +32,9 @@ def create_state_space_tree(
 
 
 if __name__ == "__main__":
-    seq: List[Any] = [3, 1, 2, 4]
+    seq: List[Any] = [3, 1, 2, 4, 5]
     generate_all_subsequences(seq)
 
     seq.clear()
-    seq.extend(["A", "B", "C"])
+    seq.extend(["A", "B", "C", "D"])
     generate_all_subsequences(seq)
